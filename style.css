@@ -1,0 +1,65 @@
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-end;
+  color: rgb(16, 38, 235)
+}
+nav li {
+  margin-left: 20px;
+}
+nav a:link {
+  padding: 13px;
+  background-color: rgb(248, 242, 242);
+  color: rgb(243, 7, 7);
+}
+.sublist {
+  flex-direction: column;
+  position: absolute;
+  margin-top: 14px;
+  display: none;
+}
+.itemWithDropdown:hover .sublist {
+  display: flex;
+}
+.sublist a:link {
+  display: block;
+}
+.sublist li {
+  margin-left: 0;
+}
+.sublist a:link {
+  background-color: rgb(96, 235, 235)
+}
+html.index {
+  background-image: url('tornado.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.textblock {
+  background-color: rgb(235, 223, 223);
+
+}
+nav a:hover {
+  color: rgb(230, 124, 207);
+}
+nav a.visited {
+  color: rgb(63, 8, 54);
+}
+nav a:active {
+  color: rgb(238, 12, 12);
+}
+nav a.current {
+  color: rgb(5, 5, 5)
+}
+img {
+  border-radius: 50%;
+  max-width: 400px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
